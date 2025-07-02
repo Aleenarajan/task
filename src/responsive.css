@@ -1,0 +1,58 @@
+/* Small screens (mobile) */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .section-title {
+    font-size: 4rem;
+  }
+
+  .service-card {
+    border-radius: 2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Medium screens (tablet) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+
+  .section-title {
+    font-size: 6rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1025px) {
+  .hero-title {
+    font-size: 8rem;
+  }
+
+  .section-title {
+    font-size: 9rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
